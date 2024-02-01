@@ -31,7 +31,7 @@
     @apply bg-white text-base font-bold text-primary drop-shadow-primary hover:bg-accent-primary_hover hover:text-white;
   }
   .h1 {
-    @apply text-[40px] xl:text-[80px] font-bold leading-[1.1];
+    @apply text-[40px] xl:text-[70px] font-bold leading-[1.1];
   }
   .h2 {
     @apply text-[40px] font-bold leading-tight;
@@ -41,5 +41,8 @@
   }
   .lead {
     @apply text-lg text-secondary font-secondary font-medium leading-relaxed;
+  }
+  .section {
+    @apply py-8 lg:py-14;
   }
 }
