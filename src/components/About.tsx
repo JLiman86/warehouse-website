@@ -9,8 +9,8 @@ const About = () => {
           <div className="flex justify-center items-center">
             <img src={image} alt="" />
           </div>
-          <div className="flex flex-col justify-center gap-8 p-10">
-            <h3 className="h2">{title}</h3>
+          <div className="flex flex-col justify-center gap-8 p-10 text-center lg:text-left">
+            <h2 className="h2">{title}</h2>
             <p>{subtitle}</p>
           </div>
         </div>

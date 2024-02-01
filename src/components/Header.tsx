@@ -9,7 +9,7 @@ import { FaBars } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
 
 const Header = () => {
-  const [navMobile, setNavMobile] = useState(true);
+  const [navMobile, setNavMobile] = useState(false);
   return (
     <header>
       <div className="container mx-auto">

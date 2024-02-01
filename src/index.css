@@ -43,6 +43,6 @@
     @apply text-lg text-secondary font-secondary font-medium leading-relaxed;
   }
   .section {
-    @apply py-8 lg:py-14;
+    @apply py-8 xl:py-14;
   }
 }
