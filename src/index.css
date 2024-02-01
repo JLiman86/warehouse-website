@@ -16,7 +16,7 @@
     @apply font-primary text-primary;
   }
   a {
-    @apply text-secondary font-semibold hover:text-accent-primary_hover transition;
+    @apply text-secondary font-semibold hover:text-accent-primary_hover transition inline-block;
   }
   .btn {
     @apply text-lg h-[60px] px-[30px] rounded-full transition text-white;

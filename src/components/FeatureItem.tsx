@@ -15,7 +15,6 @@ const FeatureItem = ({
   title,
   description,
   linkText,
-  delay,
 }: FeatureItemProps) => {
   return (
     <div className="relative flex gap-10 p-10 items-center">
