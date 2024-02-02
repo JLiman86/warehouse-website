@@ -1,6 +1,5 @@
 import { featuresData } from "../data";
 
-
 import FeatureItem from "./FeatureItem";
 
 const Features = () => {
@@ -9,8 +8,20 @@ const Features = () => {
     <section className="section">
       <div className="container mx-auto">
         <div>
-          <h2 className="h2 text-center">{title}</h2>
-          <p className="text-center mt-10 mb-16 max-w-[500px] mx-auto">
+          <h2
+            data-aos="fade-down"
+            data-aos-offset="800"
+            data-aos-delay="100"
+            className="h2 text-center"
+          >
+            {title}
+          </h2>
+          <p
+            data-aos="fade-down"
+            data-aos-offset="800"
+            data-aos-delay="200"
+            className="text-center mt-10 mb-16 max-w-[500px] mx-auto"
+          >
             {subtitle}
           </p>
 

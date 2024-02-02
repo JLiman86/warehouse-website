@@ -11,8 +11,12 @@ import { BsArrowRight } from "react-icons/bs";
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
-    <header>
-      <div className="container mx-auto">
+    <header className="relative z-20">
+      <div
+        data-aos="fade-down"
+        data-aos-delay="1200"
+        className="container mx-auto"
+      >
         <div className="py-4 flex items-center justify-between relative">
           <div className="flex items-center gap-20">
             <a href="#">
@@ -34,7 +38,7 @@ const Header = () => {
           <div
             className={`${
               navMobile ? "h-[314px]" : "h-[0px]"
-            }  xl:hidden absolute top-full left-0 w-full transition-all overflow-hidden`}
+            }  xl:hidden z-10 absolute top-full left-0 w-full transition-all overflow-hidden`}
           >
             <NavMobile />
           </div>

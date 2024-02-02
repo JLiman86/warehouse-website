@@ -15,9 +15,15 @@ const FeatureItem = ({
   title,
   description,
   linkText,
+  delay,
 }: FeatureItemProps) => {
   return (
-    <div className="relative flex gap-10 p-10 items-center">
+    <div
+      data-aos="zoom-in"
+      data-aos-offset="800"
+      data-aos-delay={delay}
+      className="relative flex gap-10 p-10 items-center"
+    >
       <div className="-z-10 absolute top-0 left-0 w-full h-full">
         <img className="w-full h-full" src={bgImage} alt="" />
       </div>

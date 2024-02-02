@@ -4,7 +4,12 @@ import Copyright from "./Copyright";
 const Footer = () => {
   const { logo, address, email, phone, list1, list2, socialList } = footerData;
   return (
-    <footer className="section">
+    <footer
+      data-aos="fade-up"
+      data-aos-offset="800"
+      data-aos-delay="500"
+      className="section"
+    >
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-4 grid-cols-1 gap-10">
           <div className="text-center lg:text-left">
@@ -47,7 +52,9 @@ const Footer = () => {
                 return (
                   <li key={idx} className="">
                     <a href={item.href}>
-                      <div className="text-white flex items-center justify-center p-3 text-xl rounded-full bg-slate-400 transition-all hover:bg-accent-primary_hover ">{item.icon}</div>
+                      <div className="text-white flex items-center justify-center p-3 text-xl rounded-full bg-slate-400 transition-all hover:bg-accent-primary_hover ">
+                        {item.icon}
+                      </div>
                     </a>
                   </li>
                 );
@@ -56,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <Copyright/>
+      <Copyright />
     </footer>
   );
 };
