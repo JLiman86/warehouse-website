@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer
       data-aos="fade-up"
-      data-aos-offset="800"
-      data-aos-delay="500"
+      data-aos-offset="500"
+      data-aos-delay="300"
       className="section"
     >
       <div className="container mx-auto">

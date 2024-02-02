@@ -20,7 +20,7 @@ const FeatureItem = ({
   return (
     <div
       data-aos="zoom-in"
-      data-aos-offset="800"
+      data-aos-offset="500"
       data-aos-delay={delay}
       className="relative flex gap-10 p-10 items-center"
     >

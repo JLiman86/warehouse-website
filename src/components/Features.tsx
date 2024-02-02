@@ -10,7 +10,7 @@ const Features = () => {
         <div>
           <h2
             data-aos="fade-down"
-            data-aos-offset="800"
+            data-aos-offset="400"
             data-aos-delay="100"
             className="h2 text-center"
           >
@@ -18,7 +18,7 @@ const Features = () => {
           </h2>
           <p
             data-aos="fade-down"
-            data-aos-offset="800"
+            data-aos-offset="400"
             data-aos-delay="200"
             className="text-center mt-10 mb-16 max-w-[500px] mx-auto"
           >

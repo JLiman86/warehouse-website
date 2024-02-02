@@ -3,7 +3,7 @@ import { aboutData } from "../data";
 const About = () => {
   const { image, title, subtitle } = aboutData;
   return (
-    <section  data-aos="fade-up" data-aos-offset="800"
+    <section  data-aos="fade-up" data-aos-offset="400"
     data-aos-delay="400" className="section">
       <div className="container mx-auto">
         <div className="bg-accent-secondary/20 grid grid-col lg:grid-cols-2 rounded-3xl">
