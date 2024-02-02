@@ -1,4 +1,10 @@
+.testimonialSlider {
+  padding-bottom:50px;
+}
 
+.testimonialSlider .swiper-pagination {
+  bottom: 20px;
+}
 
 .swiper-pagination-bullet {
   background-color: white;

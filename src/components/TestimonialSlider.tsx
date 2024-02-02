@@ -13,8 +13,8 @@ const TestimonialSlider = () => {
     <Swiper
       autoplay={true}
       loop={true}
-      className="max-w-[700px] pb-10"
-      pagination={{ clickable: true, dynamicBullets: true }}
+      className="testimonialSlider max-w-[700px] "
+      pagination={{ clickable: true }}
       modules={[Pagination, Autoplay]}
     >
       {testimonialsData.map((slide, idx) => {
